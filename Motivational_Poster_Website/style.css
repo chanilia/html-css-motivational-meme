@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+/* oui font-size ca change tout */
+h1{
+font-family: 'Libre Baskerville', serif;
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-size: 3rem;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+/* j'aurais pu creer une class ici; et margin-top pour creer de l'espace
+entre le bord de la page et la bordure de l' img */
+img{
+    border: 5px solid white;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+/* j'aurais pu creer une class aussi ici pour accompagner la div */
+div{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
